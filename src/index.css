@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  /* scrollbar-width: none; */
+  scroll-behavior: smooth !important;
+}

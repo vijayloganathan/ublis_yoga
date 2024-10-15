@@ -1,0 +1,81 @@
+.contact .emailForm input[type="text"],
+.contact .emailForm input[type="email"],
+.contact .emailForm textarea {
+  font-size: 14px;
+  padding: 10px 15px;
+  box-shadow: none;
+  border-radius: 0;
+  color: #212529;
+  background-color: #ffffff;
+  border: 1px solid #f95005;
+}
+
+.getStartedBtn {
+  border: 1px solid #f95005;
+  padding: 9px 15px;
+  border-radius: 5px;
+  color: white;
+  background: #f95005;
+}
+
+.getStartedBtn:hover {
+  border: 1px solid #f95005;
+  background-color: white;
+  color: #f95005;
+}
+
+.formLabels {
+  color: #f95005;
+  font-size: 19px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactIntro h5 {
+  color: #f95005;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contactForms h5 {
+  margin: 0;
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+  color: #f95005;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contactForms {
+  padding-bottom: 100px;
+  margin: 0;
+}
+
+.contactIntro {
+  padding: 50px 0px;
+  margin: 0;
+}
+
+.contactFormContainer h4 {
+  font-size: 52px;
+  color: #f95005;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .contactFormContainer h4 {
+    font-size: 40px;
+  }
+}
+
+.mapContents {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

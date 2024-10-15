@@ -1,0 +1,121 @@
+table {
+  width: 90%;
+  border-collapse: collapse;
+  font-size: 16px;
+  /* Ensures borders between cells are combined */
+  margin: 20px 0;
+  /* Sets a clean font for the table text */
+}
+
+td {
+  border: 1px solid #ddd;
+  /* Light gray border for table cells */
+  padding: 12px;
+  /* Adds padding inside cells */
+  text-align: left;
+  /* Aligns text to the left */
+}
+
+th {
+  border: 1px solid #fff;
+  /* Light gray border for table cells */
+  padding: 12px;
+  /* Adds padding inside cells */
+  text-align: center;
+  /* Aligns text to the left */
+}
+
+th {
+  background-color: #f95005;
+  /* Light gray background for header cells */
+  color: #fff;
+  /* Darker text color for better readability */
+  font-weight: bold;
+  /* Makes header text bold */
+}
+
+/* tr:nth-child(even) {
+  background-color: #f9f9f9;
+} */
+/* 
+tr:hover {
+  background-color: #f1f1f1;
+} */
+
+td {
+  white-space: nowrap;
+  /* Prevents text from wrapping */
+}
+
+/* Responsive table styling */
+@media (max-width: 768px) {
+  table {
+    font-size: 18px;
+    /* Adjust font size for smaller screens */
+  }
+
+  th,
+  td {
+    padding: 8px;
+    /* Adjust padding for smaller screens */
+  }
+}
+
+.heading {
+  font-weight: 500;
+  color: #fff;
+}
+
+.timingdata {
+  font-weight: 500;
+  color: #1e201e;
+}
+
+.feeheading {
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+
+.featuresSectio .workshops h3 {
+  font-size: 40px;
+  color: #f95005;
+  font-weight: bold;
+}
+
+.feeStructure h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f95005;
+  padding: 50px 0px 20px 0px;
+}
+
+.feeStructure h5 {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  padding: 10px 0px 40px 0px;
+}
+
+.feeStructure .row {
+  display: flex;
+  justify-content: center;
+}
+
+.contentss {
+  padding: 30px 5px;
+}
+
+.contentss h4 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f95005;
+}
+
+.contentss .image {
+  padding: 40px 10px;
+}
+
+.contentss .image img {
+  height: 500px;
+}

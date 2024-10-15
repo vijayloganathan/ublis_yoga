@@ -1,0 +1,175 @@
+.carouselItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 60vw; */
+}
+
+.carouselItems .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselItems .carousel {
+  width: 60vw;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.aboutContents {
+  padding: 40px 10px;
+}
+
+.aboutContents h2 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #f95005;
+}
+
+.aboutContents p {
+  text-align: center;
+}
+
+.aboutContents .introText {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.profileInstructor {
+  /* height: 100px; */
+}
+
+.aboutInstructor p {
+  font-size: 16px;
+}
+
+.aboutUsCont {
+  padding: 40px 150px 0px 150px;
+  justify-content: center;
+}
+
+.aboutUsCont .col-md-12 p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.aboutUsCont .col-md-12 p span {
+  color: #f95005;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.aboutUsMission {
+  background: #f95005;
+  padding: 2px 0px 10px 0px;
+  margin-top: 30px;
+}
+
+.aboutUsImageMed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUsImageMed {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutUsImag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUsImag h5 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #f95005;
+}
+
+.aboutUsImag p {
+  font-size: 22px;
+  color: #f95005;
+  font-weight: 500;
+}
+
+.aboutUsImag img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.aboutUsImageMed img {
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.aboutUsMission {
+  padding: 30px 10px;
+}
+
+.ourMission h4 {
+  font-size: 43px;
+  color: black;
+  font-weight: 600;
+}
+
+.ourMission span {
+  color: #f95005;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.ourMission p {
+  font-size: 20px;
+}
+
+.ourMission {
+  gap: 15px;
+  text-align: center;
+}
+
+.ourMission {
+  background-color: white;
+  border-radius: 10px;
+  height: 350px;
+  padding: 0px 50px;
+  justify-content: center;
+}
+
+.aboutUsMission {
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUsTeam .col-md-12 h4 {
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.aboutUsTeam .col-md-12 p span {
+  color: #f95005;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .aboutUsCont {
+    padding: 40px 10px 0px 10px;
+  }
+  .carouselItems .carousel {
+    width: 90vw;
+  }
+  .ourMission {
+    height: 500px;
+  }
+}
